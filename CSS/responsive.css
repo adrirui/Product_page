@@ -33,70 +33,85 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 100%;
 
 
         div {
             width: 100% !important;
             gap: 5px !important;
-            height: 80vh;
-            font-size: 10px;
+            /* height: 80vh !important; */
+            font-size: 20px !important;
+
+            h2 {
+                font-size: 20px !important;
+            }
+
 
             img {
                 margin-top: 5px;
-                width: 100% !important;
+                /* width: 100% !important; */
 
             }
 
             p {
-                font-size: 10px !important;
-                width: 30%;
+                font-size: 15px !important;
+                width: 70% !important;
             }
-
-            div {
-                width: 25px!important;
-                height: 25px !important;
-                border-radius: 50% !important;
-            }
-
-           
-
         }
+
+        .holis {
+            margin-top: 15px;
+            width: 80px !important;
+            height: 80px !important;
+            border-radius: 50% !important;
+        }
+
+
+
     }
 }
 
-@media only screen and (min-width: 700px){
-    header{
+
+@media only screen and (min-width: 1080px) {
+    header {
         height: 20vh !important;
     }
-    main{
+
+    main {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         gap: 5rem;
 
-        #tu{
 
-        }
-        
-        div{
+
+        div {
             font-size: 20px !important;
-            height: 450px;
-            width: 300px !important;
+            height: 390px !important;
+            width: 280px !important;
             text-align: center;
-            p{
+
+            p {
                 font-size: 15px !important;
-                width: 65% !important;
+                width: 50% !important;
             }
-            img{
-                width: 250px;
+
+            img {
+                width: 200px !important;
             }
-            .holis{
+
+            .holis {
                 width: 50px !important;
                 height: 50px !important;
             }
-            
-            
-            
+
+            #puta {
+                width: 50px !important;
+                height: 50px !important;
+            }
+
+
+
         }
     }
 }
